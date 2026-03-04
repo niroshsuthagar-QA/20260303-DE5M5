@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
     #data.to_csv('cleaned_file.csv')
     print(data)
-
+    data.to_csv("data/books_clean.csv")
     #Cleaning the customer file
     filepath_input_2 = 'data/03_Library SystemCustomers.csv'
 
@@ -111,6 +111,7 @@ if __name__ == '__main__':
     data2 = naCleaner(data2)
 
     print(data2)
+    data2.to_csv("data/customers_clean.csv")
     print('**************** DATA CLEANED ****************')
 
     '''
