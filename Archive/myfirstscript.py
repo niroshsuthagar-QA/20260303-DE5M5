@@ -29,5 +29,6 @@ def writesToSQL():
     pass
 #######
 
-output = addnumbers(2,3)
-print(output)
+if __name__ == "__main__":
+    output = addnumbers(2,3)
+    print(output)
